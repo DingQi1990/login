@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+
+        #all{
+            width:500px;
+            height: 500px;
+            border:1px solid rgb(60,165,121);
+            position: relative;
+            margin: 0 auto;
+        }
+
+        #name{
+            width: 300px;
+            height:50px;
+            border:1px solid darkgray;
+            position: absolute;
+            left:100px;
+            top:150px;
+            outline: none;
+            font-size: 18px;
+            background: ghostwhite;
+        }
+
+
+        #password{
+            width: 300px;
+            height:50px;
+            border:1px solid darkgray;
+            position: absolute;
+            left:100px;
+            top:250px;
+            outline: none;
+            font-size: 18px;
+            background: ghostwhite;
+        }
+
+
+        #p{
+            font-size: 18px;
+            color: darkgray;
+            position: absolute;
+            right:95px;
+            bottom:140px;
+
+        }
+
+
+
+        #login{
+            width: 300px;
+            height:50px;
+            background-color: rgb(60,165,121);
+            font-size: 18px;
+            text-align: center;
+            line-height: 50px;
+            position: absolute;
+            left:100px;
+            top:350px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+<form class="form" method="get" action="loginSuccess">
+ <div id="all">
+
+     <input type="text" id="name" placeholder="请输入已验证的手机/邮箱">
+
+     <input type="text" id="password" placeholder="请输入密码">
+
+     <p id="p">忘记密码</p>
+
+     <button id="login">登录</button>
+
+
+ </div>
+</form>
+</body>
+</html>
