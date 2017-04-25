@@ -55,10 +55,11 @@
 * 升序排列 (default)
 * SELECT * FROM USER ORDER BY AGE
 * SELECT * FROM USER ORDER BY AGE ASC
-   *
+   ​
 * 降序排列
 * SELECT * FROM USER ORDER BY AGE DESC
    *
 * 按照拼音首字母排序
 * SELECT * FROM USER ORDER BY CONVERT (NAME USING GBK)
 * */
+* 111
